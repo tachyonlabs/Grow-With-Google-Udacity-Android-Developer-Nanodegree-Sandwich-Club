@@ -7,6 +7,8 @@
     <string name="detail_description_label">Description:</string>
     <string name="detail_ingredients_label">Ingredients:</string>
 
+    <string name="detail_place_of_origin_unknown">Unknown</string>
+
     <!-- Content descriptions-->
     <string name="sandwich_picture_content_description">Sandwich picture</string>
 
@@ -45,7 +47,7 @@
         </item>
         <item>
             {\"name\":{\"mainName\":\"Chivito\",\"alsoKnownAs\":[]},\"placeOfOrigin\":\"Uruguay\",\"description\":\"Chivito
-            is a national dish of Uruguay, It is a thin slice of tender cooked beef steak
+            is a national dish of Uruguay. It is a thin slice of tender cooked beef steak
             (churrasco), with mozzarella, tomatoes, mayonnaise, black or green olives, and commonly
             also bacon, fried or hard-boiled eggs and ham, served as a sandwich in a bun, often
             accompanied by French fried potatoes. Other ingredients, such as red beets, peas,
@@ -78,7 +80,7 @@
             Sandwich\"]},\"placeOfOrigin\":\"Cuba\",\"description\":\"Medianoche (\\\"midnight\\\"
             in Spanish) is a type of sandwich which originated in Cuba. It is served in many Cuban
             communities in the United States. It is so named because of the sandwich\'s popularity
-            asa staple served in Havana\'s night clubs right around or after
+            as a staple served in Havana\'s night clubs right around or after
             midnight.\",\"image\":\"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Sandwich_de_Medianoche.jpg/800px-Sandwich_de_Medianoche.jpg\",\"ingredients\":[\"Egg
             bread\",\"Roast pork\",\"Ham\",\"Mustard\",\"Swiss cheese\",\"Dill pickles\"]}
         </item>
@@ -101,6 +103,8 @@
             possible to use only a few spices (which many vendors do), the resulting meat is less
             flavourful.\",\"image\":\"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Roujiamo.jpg/800px-Roujiamo.jpg\",\"ingredients\":[\"Pork\",\"bread\"]}
         </item>
+        <!--I replaced the original Shawarma URL https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Shawarmafood.jpg/800px-Shawarmafood.jpg-->
+        <!--because the image no longer exists at that URL-->
         <item>{\"name\":{\"mainName\":\"Shawarma\",\"alsoKnownAs\":[]},\"placeOfOrigin\":\"Middle East,
             Levant\",\"description\":\"Shawarma also spelled shawurma or shawerma, is a Levantine
             meat preparation, where lamb, chicken, turkey, beef, veal, or mixed meats are placed on
@@ -110,7 +114,7 @@
             (generally with accompaniments), or as a sandwich or wrap. Shawarma is usually eaten
             with tabbouleh, fattoush, taboon bread, tomato, and cucumber. Toppings include tahini,
             hummus, pickled turnips, and
-            amba.\",\"image\":\"https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Shawarmafood.jpg/800px-Shawarmafood.jpg\",\"ingredients\":[\"Shawarma
+            amba.\",\"image\":\"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Shawarma_%282223426004%29.jpg/1280px-Shawarma_%282223426004%29.jpg\",\"ingredients\":[\"Shawarma
             meat (lamb, chicken, turkey, beef) or shawarma falafel\",\"Pita or wrap
             bread\",\"Chopped or shredded vegetables\",\"Pickles\",\"Assorted condiments\"]}
         </item>

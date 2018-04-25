@@ -25,27 +25,27 @@ Through this project, you will:
 
 * [x] Learn how to submit projects for review
 * [x] Practice JSON parsing to a model object
-* [ ] Design an activity layout
-* [ ] Populate all fields in the layout accordingly
+* [x] Design an activity layout
+* [x] Populate all fields in the layout accordingly
 
 ## How Do I Complete this Project?
 
 * [x] Download the [Sandwich Club app starter code.](https://github.com/udacity/sandwich-club-starter-code)
-* [ ] Design the layout for the detail activity so the different elements display in a sensible way. 
+* [x] Design the layout for the detail activity so the different elements display in a sensible way. 
 * [x] Implement the JSON parsing in JsonUtils so it produces a Sandwich Object that can be used to populate the UI that you designed.
 
 ## Common Project Requirements
 
 * [x] App is written solely in the Java Programming Language
-* [ ] App conforms to common standards found in the Android Nanodegree General Project Guidelines NOTE: It is okay if the app does not handle rotation properly or does not restore the data using onSaveInstanceState/onRestoreInstanceState)
+* [x] App conforms to common standards found in the Android Nanodegree General Project Guidelines NOTE: It is okay if the app does not handle rotation properly or does not restore the data using onSaveInstanceState/onRestoreInstanceState)
 
 ## Core Functionality
 
 * [x] JSON data is parsed correctly to a Sandwich object in JsonUtils
 * [x] JSON is parsed without using 3rd party libraries
-* [ ] DetailActivity shows all Sandwich details correctly
-* [ ] Detail layout includes a ScrollView so all the details are visible in small screen devices
-* [ ] Sandwich details are shown in a sensible layout. For example, ingredients appear next to the ingredients label
+* [x] DetailActivity shows all Sandwich details correctly
+* [x] Detail layout includes a ScrollView so all the details are visible in small screen devices
+* [x] Sandwich details are shown in a sensible layout. For example, ingredients appear next to the ingredients label
 
 ## Udacity Android Developer Nanodegree - Core App Quality Guidelines
 ### Visual Design and User Interaction
@@ -68,15 +68,15 @@ Through this project, you will:
 
 #### User/App State
 
-* [ ] App correctly preserves and restores user or app state, that is , student uses a bundle to save app state and restores it via onSaveInstanceState/onRestoreInstanceState. For example,
+* [ ] (N/A) App correctly preserves and restores user or app state, that is, student uses a bundle to save app state and restores it via onSaveInstanceState/onRestoreInstanceState. For example,
 
 - When a list item is selected, it remains selected on rotation.
 - When an activity is displayed, the same activity appears on rotation.
 - User text input is preserved on rotation.
 - Maintains list items positions on device rotation.
     
-* [ ] When the app is resumed after the device wakes from sleep (locked) state, the app returns the user to the exact state in which it was last used.
-* [ ] When the app is relaunched from Home or All Apps, the app restores the app state as closely as possible to the previous state.
+* [x] When the app is resumed after the device wakes from sleep (locked) state, the app returns the user to the exact state in which it was last used.
+* [x] When the app is relaunched from Home or All Apps, the app restores the app state as closely as possible to the previous state.
 
 ### Performance and Stability
 #### Stability
